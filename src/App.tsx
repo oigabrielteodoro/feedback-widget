@@ -1,5 +1,5 @@
-function App() {
-  return <h1 className="text-blue-500">App</h1>;
-}
+import { Widget } from "./components";
 
-export default App;
+export function App() {
+  return <Widget />;
+}
